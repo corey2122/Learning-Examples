@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117312B11D19CA6E001DDA36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117312B01D19CA6E001DDA36 /* AppDelegate.swift */; };
+		117312B31D19CA6E001DDA36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117312B21D19CA6E001DDA36 /* ViewController.swift */; };
+		117312B61D19CA6E001DDA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117312B41D19CA6E001DDA36 /* Main.storyboard */; };
+		117312B81D19CA6E001DDA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117312B71D19CA6E001DDA36 /* Assets.xcassets */; };
+		117312BB1D19CA6E001DDA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117312B91D19CA6E001DDA36 /* LaunchScreen.storyboard */; };
+		117312C61D19CA6F001DDA36 /* gifteyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117312C51D19CA6F001DDA36 /* gifteyTests.swift */; };
+		117312D11D19CA6F001DDA36 /* gifteyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117312D01D19CA6F001DDA36 /* gifteyUITests.swift */; };
+		117312E11D19CC7E001DDA36 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117312E01D19CC7E001DDA36 /* MasterViewController.swift */; };
+		117312E31D19CE62001DDA36 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117312E21D19CE62001DDA36 /* DetailViewController.swift */; };
+		118417191D1AD33E0037F21D /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118417181D1AD33E0037F21D /* Monster.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		117312C21D19CA6F001DDA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117312A51D19CA6E001DDA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117312AC1D19CA6E001DDA36;
+			remoteInfo = giftey;
+		};
+		117312CD1D19CA6F001DDA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 117312A51D19CA6E001DDA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 117312AC1D19CA6E001DDA36;
+			remoteInfo = giftey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		117312AD1D19CA6E001DDA36 /* giftey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giftey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		117312B01D19CA6E001DDA36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		117312B21D19CA6E001DDA36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		117312B51D19CA6E001DDA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		117312B71D19CA6E001DDA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		117312BA1D19CA6E001DDA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		117312BC1D19CA6E001DDA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117312C11D19CA6F001DDA36 /* gifteyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gifteyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		117312C51D19CA6F001DDA36 /* gifteyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifteyTests.swift; sourceTree = "<group>"; };
+		117312C71D19CA6F001DDA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117312CC1D19CA6F001DDA36 /* gifteyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gifteyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		117312D01D19CA6F001DDA36 /* gifteyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifteyUITests.swift; sourceTree = "<group>"; };
+		117312D21D19CA6F001DDA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117312E01D19CC7E001DDA36 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = ../MasterViewController.swift; sourceTree = "<group>"; };
+		117312E21D19CE62001DDA36 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		118417181D1AD33E0037F21D /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Monster.swift; path = ../Monster.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		117312AA1D19CA6E001DDA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117312BE1D19CA6F001DDA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117312C91D19CA6F001DDA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		117312A41D19CA6E001DDA36 = {
+			isa = PBXGroup;
+			children = (
+				117312AF1D19CA6E001DDA36 /* giftey */,
+				117312C41D19CA6F001DDA36 /* gifteyTests */,
+				117312CF1D19CA6F001DDA36 /* gifteyUITests */,
+				117312AE1D19CA6E001DDA36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		117312AE1D19CA6E001DDA36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				117312AD1D19CA6E001DDA36 /* giftey.app */,
+				117312C11D19CA6F001DDA36 /* gifteyTests.xctest */,
+				117312CC1D19CA6F001DDA36 /* gifteyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		117312AF1D19CA6E001DDA36 /* giftey */ = {
+			isa = PBXGroup;
+			children = (
+				117312B01D19CA6E001DDA36 /* AppDelegate.swift */,
+				117312E21D19CE62001DDA36 /* DetailViewController.swift */,
+				117312E01D19CC7E001DDA36 /* MasterViewController.swift */,
+				118417181D1AD33E0037F21D /* Monster.swift */,
+				117312B21D19CA6E001DDA36 /* ViewController.swift */,
+				117312B41D19CA6E001DDA36 /* Main.storyboard */,
+				117312B71D19CA6E001DDA36 /* Assets.xcassets */,
+				117312B91D19CA6E001DDA36 /* LaunchScreen.storyboard */,
+				117312BC1D19CA6E001DDA36 /* Info.plist */,
+			);
+			path = giftey;
+			sourceTree = "<group>";
+		};
+		117312C41D19CA6F001DDA36 /* gifteyTests */ = {
+			isa = PBXGroup;
+			children = (
+				117312C51D19CA6F001DDA36 /* gifteyTests.swift */,
+				117312C71D19CA6F001DDA36 /* Info.plist */,
+			);
+			path = gifteyTests;
+			sourceTree = "<group>";
+		};
+		117312CF1D19CA6F001DDA36 /* gifteyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				117312D01D19CA6F001DDA36 /* gifteyUITests.swift */,
+				117312D21D19CA6F001DDA36 /* Info.plist */,
+			);
+			path = gifteyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		117312AC1D19CA6E001DDA36 /* giftey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117312D51D19CA6F001DDA36 /* Build configuration list for PBXNativeTarget "giftey" */;
+			buildPhases = (
+				117312A91D19CA6E001DDA36 /* Sources */,
+				117312AA1D19CA6E001DDA36 /* Frameworks */,
+				117312AB1D19CA6E001DDA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = giftey;
+			productName = giftey;
+			productReference = 117312AD1D19CA6E001DDA36 /* giftey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		117312C01D19CA6F001DDA36 /* gifteyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117312D81D19CA6F001DDA36 /* Build configuration list for PBXNativeTarget "gifteyTests" */;
+			buildPhases = (
+				117312BD1D19CA6F001DDA36 /* Sources */,
+				117312BE1D19CA6F001DDA36 /* Frameworks */,
+				117312BF1D19CA6F001DDA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				117312C31D19CA6F001DDA36 /* PBXTargetDependency */,
+			);
+			name = gifteyTests;
+			productName = gifteyTests;
+			productReference = 117312C11D19CA6F001DDA36 /* gifteyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		117312CB1D19CA6F001DDA36 /* gifteyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117312DB1D19CA6F001DDA36 /* Build configuration list for PBXNativeTarget "gifteyUITests" */;
+			buildPhases = (
+				117312C81D19CA6F001DDA36 /* Sources */,
+				117312C91D19CA6F001DDA36 /* Frameworks */,
+				117312CA1D19CA6F001DDA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				117312CE1D19CA6F001DDA36 /* PBXTargetDependency */,
+			);
+			name = gifteyUITests;
+			productName = gifteyUITests;
+			productReference = 117312CC1D19CA6F001DDA36 /* gifteyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		117312A51D19CA6E001DDA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "CJS ";
+				TargetAttributes = {
+					117312AC1D19CA6E001DDA36 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					117312C01D19CA6F001DDA36 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 117312AC1D19CA6E001DDA36;
+					};
+					117312CB1D19CA6F001DDA36 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 117312AC1D19CA6E001DDA36;
+					};
+				};
+			};
+			buildConfigurationList = 117312A81D19CA6E001DDA36 /* Build configuration list for PBXProject "giftey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 117312A41D19CA6E001DDA36;
+			productRefGroup = 117312AE1D19CA6E001DDA36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				117312AC1D19CA6E001DDA36 /* giftey */,
+				117312C01D19CA6F001DDA36 /* gifteyTests */,
+				117312CB1D19CA6F001DDA36 /* gifteyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		117312AB1D19CA6E001DDA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117312BB1D19CA6E001DDA36 /* LaunchScreen.storyboard in Resources */,
+				117312B81D19CA6E001DDA36 /* Assets.xcassets in Resources */,
+				117312B61D19CA6E001DDA36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117312BF1D19CA6F001DDA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117312CA1D19CA6F001DDA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		117312A91D19CA6E001DDA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118417191D1AD33E0037F21D /* Monster.swift in Sources */,
+				117312B31D19CA6E001DDA36 /* ViewController.swift in Sources */,
+				117312B11D19CA6E001DDA36 /* AppDelegate.swift in Sources */,
+				117312E11D19CC7E001DDA36 /* MasterViewController.swift in Sources */,
+				117312E31D19CE62001DDA36 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117312BD1D19CA6F001DDA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117312C61D19CA6F001DDA36 /* gifteyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117312C81D19CA6F001DDA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117312D11D19CA6F001DDA36 /* gifteyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		117312C31D19CA6F001DDA36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117312AC1D19CA6E001DDA36 /* giftey */;
+			targetProxy = 117312C21D19CA6F001DDA36 /* PBXContainerItemProxy */;
+		};
+		117312CE1D19CA6F001DDA36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 117312AC1D19CA6E001DDA36 /* giftey */;
+			targetProxy = 117312CD1D19CA6F001DDA36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		117312B41D19CA6E001DDA36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				117312B51D19CA6E001DDA36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		117312B91D19CA6E001DDA36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				117312BA1D19CA6E001DDA36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		117312D31D19CA6F001DDA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		117312D41D19CA6F001DDA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		117312D61D19CA6F001DDA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = giftey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.giftey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		117312D71D19CA6F001DDA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = giftey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.giftey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		117312D91D19CA6F001DDA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gifteyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.gifteyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giftey.app/giftey";
+			};
+			name = Debug;
+		};
+		117312DA1D19CA6F001DDA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gifteyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.gifteyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giftey.app/giftey";
+			};
+			name = Release;
+		};
+		117312DC1D19CA6F001DDA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gifteyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.gifteyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = giftey;
+			};
+			name = Debug;
+		};
+		117312DD1D19CA6F001DDA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = gifteyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.gifteyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = giftey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		117312A81D19CA6E001DDA36 /* Build configuration list for PBXProject "giftey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117312D31D19CA6F001DDA36 /* Debug */,
+				117312D41D19CA6F001DDA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117312D51D19CA6F001DDA36 /* Build configuration list for PBXNativeTarget "giftey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117312D61D19CA6F001DDA36 /* Debug */,
+				117312D71D19CA6F001DDA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117312D81D19CA6F001DDA36 /* Build configuration list for PBXNativeTarget "gifteyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117312D91D19CA6F001DDA36 /* Debug */,
+				117312DA1D19CA6F001DDA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117312DB1D19CA6F001DDA36 /* Build configuration list for PBXNativeTarget "gifteyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117312DC1D19CA6F001DDA36 /* Debug */,
+				117312DD1D19CA6F001DDA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 117312A51D19CA6E001DDA36 /* Project object */;
+}
